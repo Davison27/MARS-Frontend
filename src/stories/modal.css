@@ -1,0 +1,20 @@
+.modal-overlay {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: center;
+  padding-top: 6rem;
+}
+
+.modal-box {
+  display: block;
+  background: white;
+  height: 20%;
+  width: 20%;
+  padding: 1rem;
+  border-radius: 1rem;
+}

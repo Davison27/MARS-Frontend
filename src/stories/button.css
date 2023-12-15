@@ -1,0 +1,40 @@
+.button {
+  font-family: 'Times New Roman', Times, serif;
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 30px;
+  color: black;
+  background-color: white;
+  padding: 1rem 1rem;
+  text-align: center;
+  font-size: 1rem;
+  transition-duration: 0.3s;
+  cursor: pointer;
+  display: inline-block;
+  line-height: 1;
+  background-color: transparent;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 0px 1px inset;
+}
+
+.button:hover {
+  background-color: #d0effb;
+  box-shadow: 0 1rem 1rem 0 rgba(0, 0, 0, 0.3);
+}
+.button:active {
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.button--small {
+  font-size: 12px;
+  padding: 10px 16px;
+}
+.button--medium {
+  font-size: 14px;
+  padding: 11px 20px;
+}
+.button--large {
+  font-size: 16px;
+  padding: 12px 24px;
+}
